@@ -735,6 +735,80 @@ p {
   color: var(--muted);
 }
 
+.prose,
+.facts,
+.approach {
+  padding: 48px var(--pad);
+  border-top: 1px solid var(--line);
+}
+
+.prose p,
+.approach p,
+.contacts__lead,
+.contacts__note {
+  max-width: 640px;
+}
+
+.prose p + p,
+.approach p + p {
+  margin-top: 14px;
+}
+
+.facts__title,
+.approach__title,
+.contacts__title {
+  margin-bottom: 18px;
+  font-size: 40px;
+  letter-spacing: -1px;
+}
+
+.facts__list {
+  max-width: 640px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.facts__list li {
+  padding: 14px 0;
+  border-top: 1px solid var(--line);
+}
+
+.approach__close,
+.contacts__close {
+  max-width: 640px;
+  margin-top: 22px;
+  font-family: var(--display);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -0.4px;
+}
+
+.orders__meta {
+  max-width: 608px;
+  margin-top: 14px;
+}
+
+.orders__meta span {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.contacts__lead {
+  margin-bottom: 8px;
+  color: var(--muted);
+}
+
+.contacts__note {
+  margin-top: 22px;
+}
+
 .js .reveal {
   opacity: 0;
   transform: translateY(18px);
