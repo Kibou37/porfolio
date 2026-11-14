@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Обо мне — SVetFolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="page">
+  <a class="skip" href="#main">К содержанию</a>
+  <header class="header">
+    <a class="header__logo" href="index.html">SVetFolio</a>
+    <button class="header__toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="header__toggle-text header__toggle-text--closed">Меню</span>
+      <span class="header__toggle-text header__toggle-text--open">Закрыть</span>
+    </button>
+    <nav class="header__nav" id="site-nav" aria-label="Разделы">
+      <a class="header__link" href="photo.html">Фото</a>
+      <a class="header__link" href="web.html">Сайты</a>
+      <a class="header__link header__link--current" href="about.html" aria-current="page">Обо мне</a>
+      <a class="header__link" href="contact.html">Контакты</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <article class="bio">
+      <h1 class="bio__title">Один человек, <em>два</em> ремесла</h1>
+      <div class="bio__body">
+        <p class="label">Обо мне</p>
+        <p>«Любая преграда — повод найти новый способ двигаться вперёд»</p>
+        <p>Снимаю и верстаю. Это не два имени и не два сайта. Серии и страницы собраны в одной системе: крупный заголовок, воздух, работа на первом месте.</p>
+        <p>В фотографии держу серию целиком: <a href="photo-osen.html">«Осень»</a>, <a href="photo-mal.html">«Модельная»</a>, <a href="photo-catton.html">Catton</a>. В сайтах собираю страницы: OPEL, Sibtransasia, Feature Stays на Next.js, тема GEM Strategy на WordPress.</p>
+        <p>Москва. Красный диплом СПО, учусь в РГУ им. А. Н. Косыгина.</p>
+        <p><a href="photo.html">Серии</a> · <a href="web.html">Кейсы</a></p>
+      </div>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <p>SVetFolio</p>
+    <a href="contact.html">Дальше — контакты</a>
+  </footer>
+</body>
+</html>

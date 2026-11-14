@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Контакты — SVetFolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="page">
+  <a class="skip" href="#main">К содержанию</a>
+  <header class="header">
+    <a class="header__logo" href="index.html">SVetFolio</a>
+    <button class="header__toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="header__toggle-text header__toggle-text--closed">Меню</span>
+      <span class="header__toggle-text header__toggle-text--open">Закрыть</span>
+    </button>
+    <nav class="header__nav" id="site-nav" aria-label="Разделы">
+      <a class="header__link" href="photo.html">Фото</a>
+      <a class="header__link" href="web.html">Сайты</a>
+      <a class="header__link" href="about.html">Обо мне</a>
+      <a class="header__link header__link--current" href="contact.html" aria-current="page">Контакты</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <header class="page-head">
+      <p class="label">Контакты</p>
+      <div class="page-head__layout">
+        <h1 class="page-head__title">Написать</h1>
+        <p class="page-head__text">Формы нет. Напишите на почту или в Telegram.</p>
+      </div>
+    </header>
+
+    <section class="orders" aria-label="Какие заказы беру">
+      <article>
+        <p class="label">Фото</p>
+        <h2 class="orders__title">Серия и репортаж</h2>
+        <p class="orders__text">Снимаю отдельную серию или событие в зале. Москва, срок обсуждается, репортаж и лёгкая модельная съёмка.</p>
+      </article>
+      <article>
+        <p class="label">Сайты</p>
+        <h2 class="orders__title">Вёрстка страниц</h2>
+        <p class="orders__text">Собираю многостраничный сайт на HTML и CSS. Объём и срок обсуждаются индивидуально под проект.</p>
+      </article>
+    </section>
+
+    <section class="contacts">
+      <ul class="contacts__list">
+        <li class="contacts__item">
+          <span class="contacts__row"><small class="contacts__name">Почта</small><a href="mailto:vetolkin3005005@mail.ru">vetolkin3005005@mail.ru</a></span>
+        </li>
+        <li class="contacts__item">
+          <span class="contacts__row"><small class="contacts__name">Telegram</small><a href="https://t.me/Kibou73" target="_blank" rel="noopener">@Kibou73</a></span>
+        </li>
+        <li class="contacts__item">
+          <span class="contacts__row"><small class="contacts__name">Instagram</small><a href="https://instagram.com/s9vchik_73" target="_blank" rel="noopener">@s9vchik_73</a></span>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>SVetFolio</p>
+    <a href="index.html">На главную</a>
+  </footer>
+</body>
+</html>

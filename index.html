@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SVetFolio — фото и сайты</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="page">
+  <a class="skip" href="#main">К содержанию</a>
+  <header class="header">
+    <a class="header__logo" href="index.html">SVetFolio</a>
+    <button class="header__toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="header__toggle-text header__toggle-text--closed">Меню</span>
+      <span class="header__toggle-text header__toggle-text--open">Закрыть</span>
+    </button>
+    <nav class="header__nav" id="site-nav" aria-label="Разделы">
+      <a class="header__link" href="photo.html">Фото</a>
+      <a class="header__link" href="web.html">Сайты</a>
+      <a class="header__link" href="about.html">Обо мне</a>
+      <a class="header__link" href="contact.html">Контакты</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="intro">
+      <p class="intro__label">Фотограф и верстальщик</p>
+      <div class="intro__layout">
+        <h1 class="intro__title">Два ремесла<br><em>одного</em> веса</h1>
+        <p class="intro__text">Занимаюсь фотографией и вёрсткой сайтов.</p>
+      </div>
+    </section>
+
+    <section class="doors" aria-label="Два раздела">
+      <a class="door door--photo" href="photo.html" aria-label="Фото: серии">
+        <div class="cycle" data-cycle>
+          <figure class="cycle__frame cycle__frame--current">
+            <img class="cycle__photo cycle__photo--center" src="media/osen/031.webp" width="1100" height="733" alt="Жёлтые деревья над осенним прудом">
+            <figcaption class="cycle__label">Осень</figcaption>
+          </figure>
+          <figure class="cycle__frame">
+            <img class="cycle__photo cycle__photo--center" src="media/mal/040.webp" width="733" height="1100" alt="Девушка в чёрном пальто на осенней лестнице">
+            <figcaption class="cycle__label">Модельная</figcaption>
+          </figure>
+          <figure class="cycle__frame">
+            <img class="cycle__photo" src="media/catton/001.webp" width="1100" height="733" alt="Зелёная световая лента на столе в тёмной комнате">
+            <figcaption class="cycle__label">Catton</figcaption>
+          </figure>
+        </div>
+        <div class="door__copy">
+          <p class="label">01 — Фото</p>
+          <h2 class="door__title">Портфолио по фото</h2>
+          <p class="door__text">Ловлю уникальные моменты.</p>
+          <span class="door__link">Смотреть подробнее</span>
+        </div>
+      </a>
+
+      <a class="door door--web" href="web.html" aria-label="Сайты: кейсы">
+        <div class="cycle" data-cycle>
+          <figure class="cycle__frame cycle__frame--current">
+            <img class="cycle__photo" src="media/cases/sib-glav.webp" width="1440" height="900" alt="Главная Sibtransasia: авиадоставка из Китая">
+            <figcaption class="cycle__label">Sibtransasia</figcaption>
+          </figure>
+          <figure class="cycle__frame">
+            <img class="cycle__photo" src="media/cases/feature-1.webp" width="1440" height="900" alt="Feature Stays: поиск жилья по удобствам">
+            <figcaption class="cycle__label">Feature Stays</figcaption>
+          </figure>
+          <figure class="cycle__frame">
+            <img class="cycle__photo" src="media/cases/gem-1.webp" width="1440" height="900" alt="GEM Strategy: первый экран корпоративной страницы">
+            <figcaption class="cycle__label">GEM</figcaption>
+          </figure>
+        </div>
+        <div class="door__copy">
+          <p class="label">02 — Сайты</p>
+          <h2 class="door__title">Портфолио по вёрстке</h2>
+          <p class="door__text">Вёрстка и разработка сайтов.</p>
+          <span class="door__link">Смотреть подробнее</span>
+        </div>
+      </a>
+    </section>
+
+    <section class="who">
+      <div class="who__layout">
+        <p class="who__line">«Любая преграда — повод найти новый способ двигаться вперёд»</p>
+        <div class="who__side">
+          <div class="who__icons">
+            <a href="mailto:vetolkin3005005@mail.ru" aria-label="Почта"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5.5" width="17" height="13" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.75"/><path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.75"/></svg></a>
+            <a href="https://t.me/Kibou73" target="_blank" rel="noopener" aria-label="Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 11.5 19 5.5l-5.2 13.2-2.5-5.3L4.5 11.5Z" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round"/></svg></a>
+            <a href="https://instagram.com/s9vchik_73" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="4" fill="none" stroke="currentColor" stroke-width="1.75"/><circle cx="12" cy="12" r="3.25" fill="none" stroke="currentColor" stroke-width="1.75"/><circle cx="16.6" cy="7.4" r="0.9" fill="currentColor"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>SVetFolio</p>
+    <p>Фото и вёрстка</p>
+  </footer>
+</body>
+</html>
